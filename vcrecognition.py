@@ -6,7 +6,7 @@ import pyjokes                                  # For cracking the jokes
 import pyttsx3                                  # For converting the text to speech
 import speech_recognition as sr                 # For converting the speech to text
 import pywhatkit                                # For sending whatsapp message, opening youtube etc
-
+llllllll//
 engine = pyttsx3.init('sapi5')                  # pyttsx3.init() is the function which is used to generate the sound and sapi5 consists the voices opf male and female
 sound = engine.getProperty('voices')            # this is use to take the property of voices 
 engine.setProperty('voice',sound[1].id)         # setproperty is used to set the voice to male and female ie. 0 for male and 1 for female
