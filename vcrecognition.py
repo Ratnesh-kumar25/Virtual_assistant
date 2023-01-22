@@ -258,7 +258,7 @@ def takecommand():
 
 
 # Main function to start the execution of the program
-if _name_ == '_main_':
+if __name__ == '__main__':
     
     wishme()                                                    # For wishing the users
     speak("I am Alexa, How may i help you sir ?")               # calling the speak function
